@@ -12,6 +12,6 @@ def testFile():
 def conversion(): #conversion xls to csv 
     convert = pd.read_excel('file_resources\characters_info.xlsx')
     print(convert)
-    convert.to_csv('converted_file_character_students.csv', index=None, header=True)
+    convert.to_csv('file_resources\converted_file_character_students.csv', index=None, header=True)
 
 conversion()
