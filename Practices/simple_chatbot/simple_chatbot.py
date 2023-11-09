@@ -2,7 +2,7 @@
 import json
 from difflib import get_close_matches as gcm
 
-path  = "Practices/knowladge_base.json"
+path  = "Practices\simple_chatbot\knowladge_base.json"
 #load from json file
 def load_knowladgebase(filepath:str) -> dict:
     with open(filepath, 'r') as file:
